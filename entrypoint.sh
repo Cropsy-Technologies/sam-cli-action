@@ -27,6 +27,7 @@ function installAwsSam(){
 			echo "Successful install aws-sam-cli ${INPUT_SAM_VERSION}"
 		fi
 	fi
+	pip install wheel >/dev/null 2>&1
 }
 
 function runSam(){
